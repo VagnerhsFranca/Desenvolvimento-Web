@@ -1,0 +1,40 @@
+body{
+    background: aquamarine;
+}
+#absoluto{
+    background-color: rgb(233, 241, 109);
+    width: 800px;
+    margin: 10px auto;
+    padding: 5px;
+}
+p{
+    width: 300px;
+}
+#fixo{
+    background-color: rgb(116, 116, 252);
+    width: 800px;
+    margin: 10px auto;
+    padding: 5px;  
+}
+
+.notaAbsoluta{
+    border: 1px solid black;
+    position: absolute;
+    width: 600px;
+    background: white; /*Comente esta linha*/
+    top: 100px;
+}
+.notaFixa{
+    border: 1px solid black;
+    position: fixed;
+    background: white;
+    width: 600px;
+    top: 100px;
+}
+.nota2{
+    border: 1px solid black;
+    position: relative;
+    background: white;
+    width: 600px;
+    top: 0px;
+}
