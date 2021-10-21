@@ -1,0 +1,24 @@
+body{
+    background: aquamarine;
+}
+#estatico{
+    background-color: darksalmon;
+    width: 800px;
+    margin: 10px auto;
+    padding: 5px;
+}
+p{
+    width: 300px;
+}
+#relativo{
+    background-color: rgb(220, 157, 245);
+    width: 800px;
+    margin: 10px auto;
+    padding: 5px;  
+}
+.relativ{
+    border: 1px solid black;
+    position: relative; 
+    left: 400px;
+    /* bottom: 125px; */
+}
